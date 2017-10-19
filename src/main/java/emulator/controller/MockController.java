@@ -115,6 +115,14 @@ public class MockController {
     return new ResponseEntity<>(new ObjectMapper().writeValueAsString(map), HttpStatus.OK);
   }
 
+  @RequestMapping(value = "/api/v1/checkout", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
+  protected ResponseEntity<String> checkout(@RequestBody String payload) throws IOException, ParseException, URISyntaxException {
+
+    String message = "thank you for your order";
+    String json = "{\"message\": \"" + message + "\"}";
+    return new ResponseEntity<>(json, HttpStatus.OK);
+  }
+
   //------- PROMO CODES ----------
 
   @RequestMapping(value = "/api/v1/promo_codes", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)

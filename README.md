@@ -5,17 +5,49 @@
 
 Note: Lombok is used, so make sure you enable annotation processor.
 
-~~~~
-/],methods=[GET]}
+POST: http://localhost:8080/api/v1/login
+POST: http://localhost:8080/api/v1/signup
+GET: http://localhost:8080/api/v1/promotions
+GET: http://localhost:8080/api/v1/cart
+POST: http://localhost:8080/api/v1/cart
+POST: http://localhost:8080/api/v1/checkout
 
-/api/v1/signup],methods=[POST],produces=[application/json]} 
-/api/v1/menu],methods=[GET],produces=[application/json]} 
-/api/v1/promo_codes],methods=[GET],produces=[application/json]}
-/api/v1/cart],methods=[POST],produces=[application/json]}
-/api/v1/login],methods=[POST],produces=[application/json]}
-/api/v1/promotions],methods=[GET],produces=[application/json]}
-/api/v1/cart],methods=[GET],produces=[application/json]}
-/i/{imageName:.+}]}
+Example CART Json
+
+~~~~
+{
+    "id": "2fsfsfds32",
+    "created_at": 1499650674,
+    "currency": "BGN",
+    "store_id": 2,
+    "vat": 1.82,
+    "total": 10.9,
+    "promo": {
+        "code": "129F3",
+        "product_id": 83,
+        "type": "product",
+        "value": "1.90",
+        "text": "Free Tea 0.5 L"
+    },
+    "products": [
+        {
+            "product_type": "other",
+            "qty": 2,
+            "group_id": 8,
+            "product_id": 82,
+            "name": "Coca Cola 0.5l",
+            "price": 1.9
+        },
+        {
+        	"product_type": "pizza",
+            "group_id": 6,
+            "name": "Pizza 36 cm",
+            "product_id": 12,
+            "qty": 1,
+            "price": 9
+        }
+    ]
+}
 ~~~~
 
 The MIT License
