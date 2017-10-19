@@ -5,7 +5,9 @@
 
 Note: Lombok is used, so make sure you enable annotation processor.
 
+### Usage
 
+Download the project. run it with  <strong>./gradlew bootRun</strong>
 
 ### Endpoints 
 - POST: http://localhost:8080/api/v1/login
