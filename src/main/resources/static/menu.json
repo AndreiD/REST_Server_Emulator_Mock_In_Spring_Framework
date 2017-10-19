@@ -1,0 +1,219 @@
+[
+  {
+    "group_id": "8",
+    "group_name": "Drinks",
+    "products": [
+      {
+        "product_type": "other",
+        "product_id": "87",
+        "group_id": "8",
+        "name": "Fanta 0.5l",
+        "weight": 0,
+        "price": "1.90",
+        "currency": "EUR"
+      },
+      {
+        "product_type": "other",
+        "product_id": "38",
+        "group_id": "8",
+        "name": "Aloe Original – 0.5l",
+        "name_bg": "Алое Бяло - Original 0.5л",
+        "weight": 0,
+        "price": "2.90",
+        "currency": "EUR"
+      },
+      {
+        "product_type": "other",
+        "product_id": "37",
+        "group_id": "8",
+        "name": "Aloe Light – 0.5l",
+        "weight": 0,
+        "price": "2.90",
+        "currency": "EUR"
+      },
+      {
+        "product_type": "other",
+        "product_id": "86",
+        "group_id": "8",
+        "name": "Cappy Orange 0.33l",
+        "weight": 0,
+        "price": "1.90",
+        "currency": "EUR"
+      },
+      {
+        "product_type": "other",
+        "product_id": "131",
+        "group_id": "8",
+        "name": "Cappy Peach 0.33l",
+        "weight": 0,
+        "price": "1.90",
+        "currency": "EUR"
+      },
+      {
+        "product_type": "other",
+        "product_id": "82",
+        "group_id": "8",
+        "name": "Coca Cola 0.5l",
+        "weight": 0,
+        "price": "1.90",
+        "currency": "EUR"
+      },
+      {
+        "product_type": "other",
+        "product_id": "83",
+        "group_id": "8",
+        "name": "Coca Cola Zero 0.5l",
+        "weight": 0,
+        "price": "1.90",
+        "currency": "EUR"
+      },
+      {
+        "product_type": "other",
+        "product_id": "39",
+        "group_id": "8",
+        "name": "Bankya – 0.5l",
+        "weight": 0,
+        "price": "1.20",
+        "currency": "EUR"
+      },
+      {
+        "product_type": "other",
+        "product_id": "85",
+        "group_id": "8",
+        "name": "Sprite 0.5l",
+        "weight": 0,
+        "price": "1.90",
+        "currency": "EUR"
+      },
+      {
+        "product_type": "other",
+        "product_id": "40",
+        "group_id": "8",
+        "name": "Nestea Lemon – 0.5l",
+        "weight": 0,
+        "price": "2.20",
+        "currency": "EUR"
+      },
+      {
+        "product_type": "other",
+        "product_id": "41",
+        "group_id": "8",
+        "name": "Nestea Peach – 0.5l",
+        "weight": 0,
+        "price": "2.20",
+        "currency": "EUR"
+      },
+      {
+        "product_type": "other",
+        "product_id": "130",
+        "group_id": "8",
+        "name": "Fanta Madness 0.5l",
+        "weight": 0,
+        "price": "1.90",
+        "currency": "EUR"
+      },
+      {
+        "product_type": "other",
+        "product_id": "84",
+        "group_id": "8",
+        "name": "Fanta Orange 0.5l",
+        "weight": 0,
+        "price": "1.90",
+        "currency": "EUR"
+      }
+    ]
+  },
+  {
+    "group_id": "9",
+    "group_name": "Beers",
+    "group_icon": null,
+    "products": [
+      {
+        "product_type": "other",
+        "product_id": "80",
+        "group_id": "9",
+        "name": "Carlsberg 0.5l",
+        "weight": 0,
+        "price": "2.80",
+        "currency": "EUR"
+      },
+      {
+        "product_type": "other",
+        "product_id": "81",
+        "group_id": "9",
+        "name": "Shumensko 0.5ken",
+        "weight": 0,
+        "price": "2.00",
+        "currency": "EUR"
+      }
+    ]
+  },
+  {
+    "group_id": "10",
+    "group_name": "Desserts",
+    "group_icon": null,
+    "products": [
+      {
+        "product_type": "other",
+        "product_id": "44",
+        "group_id": "10",
+        "name": "Mascarpone and Lemon",
+        "weight": 0,
+        "price": "4.90",
+        "currency": "EUR"
+      },
+      {
+        "product_type": "other",
+        "product_id": "42",
+        "group_id": "10",
+        "name": "Cheese Cake",
+        "weight": 0,
+        "price": "4.90",
+        "currency": "EUR"
+      },
+      {
+        "product_type": "other",
+        "product_id": "43",
+        "group_id": "10",
+        "name": "A Chocolate Desert",
+        "weight": 0,
+        "price": "4.90",
+        "currency": "EUR"
+      }
+    ]
+  },
+  {
+    "group_id": "11",
+    "group_name": "Salads",
+    "group_icon": null,
+    "products": [
+      {
+        "product_type": "other",
+        "product_id": "30",
+        "group_id": "11",
+        "name": "Greek salad",
+        "weight": 0,
+        "price": "5.00",
+        "currency": "EUR"
+      },
+      {
+        "product_type": "other",
+        "product_id": "31",
+        "group_id": "11",
+        "name": "Tuna Salad",
+        "weight": 0,
+        "price": "5.50",
+        "currency": "EUR"
+      },
+      {
+        "product_type": "other",
+        "product_id": "32",
+        "group_id": "11",
+        "name": "Cesar Salad",
+        "weight": 0,
+        "price": "5.50",
+        "currency": "EUR"
+      }
+    ]
+  }
+]

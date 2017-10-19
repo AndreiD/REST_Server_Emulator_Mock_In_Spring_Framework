@@ -1,0 +1,21 @@
+spring:
+  profiles.active: default
+  profiles: default
+  application:
+      name: Rest Server
+
+  mvc:
+    locale: en_US
+    date-format: dd/MM/yyyy HH:mm:ss
+
+server:
+  port: 8080
+  tomcat:
+    max-threads: 5
+    uri-encoding: utf-8
+
+
+logging:
+  level:
+    org.springframework.web: INFO
+    org.springframework.boot: INFO

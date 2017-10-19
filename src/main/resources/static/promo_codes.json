@@ -1,0 +1,16 @@
+[
+  {
+    "valid": true,
+    "promo_code": "129F3",
+    "name": "Free Tea 0.5 L",
+    "image": "http://localhost:8080/i/tea.jpg",
+    "type": "free_product"
+  },
+  {
+    "valid": true,
+    "promo_code": "6924D",
+    "name": "get 10% discount",
+    "image": "http://localhost:8080/i/discount.jpg",
+    "type": "discount"
+  }
+]
