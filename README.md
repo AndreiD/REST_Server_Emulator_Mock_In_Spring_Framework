@@ -6,6 +6,7 @@
 Note: Lombok is used, so make sure you enable annotation processor.
 
 
+
 ### Endpoints 
 - POST: http://localhost:8080/api/v1/login
 - POST: http://localhost:8080/api/v1/signup

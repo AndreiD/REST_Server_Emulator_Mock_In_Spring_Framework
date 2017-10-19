@@ -30,11 +30,6 @@ repositories {
   mavenCentral()
 }
 
-bootRun {
-  jvmArgs = ["-Xms64M", "-Xmx256М"]
-}
-
-
 dependencies {
 
   compile("org.springframework.boot:spring-boot-starter-web")
