@@ -5,12 +5,14 @@
 
 Note: Lombok is used, so make sure you enable annotation processor.
 
-POST: http://localhost:8080/api/v1/login
-POST: http://localhost:8080/api/v1/signup
-GET: http://localhost:8080/api/v1/promotions
-GET: http://localhost:8080/api/v1/cart
-POST: http://localhost:8080/api/v1/cart
-POST: http://localhost:8080/api/v1/checkout
+
+### Endpoints 
+- POST: http://localhost:8080/api/v1/login
+- POST: http://localhost:8080/api/v1/signup
+- GET: http://localhost:8080/api/v1/promotions
+- GET: http://localhost:8080/api/v1/cart
+- POST: http://localhost:8080/api/v1/cart
+- POST: http://localhost:8080/api/v1/checkout
 
 Example CART Json
 
