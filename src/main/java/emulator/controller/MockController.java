@@ -83,7 +83,7 @@ public class MockController {
   @RequestMapping(value = "/api/v1/menu", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
   protected ResponseEntity<String> getTheMenu() throws IOException, ParseException, URISyntaxException {
     JSONArray data = (JSONArray) new JSONParser().parse(
-        new FileReader("C:\\workspace_idea\\emulator\\src\\main\\resources\\static\\menu.json"));
+        new FileReader("/home/emulator/src/main/resources/static/menu.json"));
     return new ResponseEntity<>(data.toJSONString(), HttpStatus.OK);
   }
 
@@ -128,7 +128,7 @@ public class MockController {
   @RequestMapping(value = "/api/v1/promo_codes", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
   protected ResponseEntity<String> getPromoCodes() throws IOException, ParseException, URISyntaxException {
     JSONArray data = (JSONArray) new JSONParser().parse(
-        new FileReader("C:\\workspace_idea\\emulator\\src\\main\\resources\\static\\promo_codes.json"));
+        new FileReader("/home/emulator/src/main/resources/static/promo_codes.json"));
     return new ResponseEntity<>(data.toJSONString(), HttpStatus.OK);
   }
 
@@ -136,7 +136,7 @@ public class MockController {
   @RequestMapping(value = "/i/{imageName:.+}")
   @ResponseBody
   public byte[] getImage(@PathVariable(value = "imageName") String imageName) throws IOException {
-    File serverFile = new File("C:\\workspace_idea\\emulator\\src\\main\\resources\\static\\images\\" + imageName);
+    File serverFile = new File("/home/emulator/src/main/resources/static/images/" + imageName);
     return Files.readAllBytes(serverFile.toPath());
   }
 }
